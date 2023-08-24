@@ -2,7 +2,7 @@
 ###### written by Aarya Venkat
 
 
-alphaFilter is a Python script that processes a directory of AlphaFold2 models and outputs a list of models based on a mean confidence threshold. This is especially useful for filtering out AlphaFold2 models below a certain confidence level, and ensuring that the models considered have a minimum number of residues.
+alphaFilter is a Python script that processes a directory of AlphaFold2 models and outputs a list of models based on a mean confidence threshold. This is especially useful for filtering out AlphaFold2 models below a certain confidence level and ensuring that the models have a minimum number of desired residues. The goal of the script is for the user to quickly find high-confidence alphafold models without pulling models created from fragmentary sequences.
 
 ## Features
 
