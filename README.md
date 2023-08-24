@@ -20,7 +20,7 @@ alphaFilter is a Python script that processes a directory of AlphaFold2 models a
 To use alphaFilter, simply provide the path to the directory containing the AlphaFold2 models, the desired plddt confidence threshold, and the minimum number of residues a model should have.
 
 ```bash
-alphafilter.py -d DIRECTORY -t THRESHOLD -r RES_MINIM
+python3 alphafilter.py -d DIRECTORY -t THRESHOLD -r RES_MINIM
 ```
 
 ### Arguments
@@ -38,7 +38,7 @@ alphafilter.py -d DIRECTORY -t THRESHOLD -r RES_MINIM
 For a directory of AlphaFold2 models located at `./models`, to filter out models with a plddt confidence score below 92 and with less than 100 residues:
 
 ```bash
-alphafilter.py -d ./models -t 92 -r 100
+python3 alphafilter.py -d ./models -t 92 -r 100
 ```
 
 ## Contributing
