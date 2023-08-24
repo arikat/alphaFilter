@@ -1,5 +1,5 @@
 # alphaFilter
-##### written by Aarya Venkat
+###### written by Aarya Venkat
 
 
 alphaFilter is a Python script that processes a directory of AlphaFold2 models and outputs a list of models based on a mean confidence threshold. This is especially useful for filtering out AlphaFold2 models below a certain confidence level, and ensuring that the models considered have a minimum number of residues.
@@ -17,7 +17,7 @@ alphaFilter is a Python script that processes a directory of AlphaFold2 models a
 
 ## Usage
 
-To use AlphaFilter, simply provide the path to the directory containing the AlphaFold2 models, the desired plddt confidence threshold, and the minimum number of residues a model should have.
+To use alphaFilter, simply provide the path to the directory containing the AlphaFold2 models, the desired plddt confidence threshold, and the minimum number of residues a model should have.
 
 ```bash
 alphafilter.py -d DIRECTORY -t THRESHOLD -r RES_MINIM
